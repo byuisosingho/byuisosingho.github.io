@@ -1,25 +1,21 @@
 header, footer{
-    margin: 1.25rem auto;
-    max-width: 900px;
     background-color: hotpink;
     color: black;
     text-align: center;
     border-radius: 1ch;
-}
-h2 { 
-    border-bottom: 3px solid black;
-}
-header{
     padding: 1rem;
 }
-
-body{
-    font-size: 14px;
+header, nav, main, footer{
+    margin: 1.25rem auto;
     max-width: 900px;
+}
+
+h2 { 
+    border-bottom: 3px solid black;
 }
 
 img {
     float: right;
     margin-top: -70px;
-    margin-right: 20px;
+    margin-right: 250px;
 }
