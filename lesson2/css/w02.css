@@ -1,0 +1,39 @@
+header{
+    background-color: pink;
+    text-align: center;
+    padding: 1rem;
+    margin: 1.25rem auto;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+main section{
+    background-color: pink;
+    width: 240px;
+    margin: 20px;
+    padding: 50px;
+}
+
+section h2{
+    background-color: lightblue;
+    font-family: 'Montserrat', sans-serif;
+    }
+a:visited {
+    color: darkgreen;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main p{
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (min-width: 37.5em){
+    main {grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 60em){
+    main {grid-template-columns: 1fr 1fr 1fr;
+    }
+}

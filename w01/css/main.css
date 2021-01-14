@@ -1,5 +1,5 @@
 header, footer{
-    background-color: hotpink;
+    background-color: pink;
     color: black;
     text-align: center;
     border-radius: 1ch;
@@ -9,6 +9,11 @@ header, nav, main, footer{
     margin: 1.25rem auto;
     max-width: 900px;
 }
+
+/* visited link */
+a:visited {
+    color: darkgreen;
+  }
 
 h2 { 
     border-bottom: 3px solid black;
