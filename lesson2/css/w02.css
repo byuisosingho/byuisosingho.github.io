@@ -1,33 +1,38 @@
 header{
-    background-color: pink;
     text-align: center;
-    padding: 1rem;
-    margin: 1rem auto;
-    font-family: 'Montserrat', sans-serif;
-    }
-
-main section{
-    background-color: pink;
-    width: 220px;
-    margin: 20px auto;
-    padding: 50px;
+    margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: pink;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    display: block;
+}
 
-
-section h2{
-    background-color: lightblue;
-    font-family: 'Montserrat', sans-serif;
-    }
-a:visited {
+a:visited{
     color: darkgreen;
 }
+h2{
+    background-color: lightskyblue;
+    font-family: 'Montserrat', sans-serif;
+}
 main {
+	max-width: 1000px;
+    margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
 
+main section {
+	margin: 0.5rem ;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: pink;
+}
 main p{
     font-family: 'Roboto', sans-serif;
 }
