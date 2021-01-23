@@ -2,16 +2,18 @@ header{
     background-color: pink;
     text-align: center;
     padding: 1rem;
-    margin: 1.25rem auto;
+    margin: 1rem auto;
     font-family: 'Montserrat', sans-serif;
     }
 
 main section{
     background-color: pink;
-    width: 240px;
-    margin: 20px;
+    width: 220px;
+    margin: 20px auto;
     padding: 50px;
 }
+
+
 
 section h2{
     background-color: lightblue;
@@ -21,17 +23,21 @@ a:visited {
     color: darkgreen;
 }
 main {
-    display: grid;
-    grid-template-columns: 1fr;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
 }
 
 main p{
     font-family: 'Roboto', sans-serif;
 }
 @media only screen and (min-width: 37.5em){
-    main {grid-template-columns: 1fr 1fr;
+    main {
+        grid-template-columns: 1fr 1fr;
+        margin: 20px auto;
     }
 }
+
 
 @media only screen and (min-width: 60em){
     main {grid-template-columns: 1fr 1fr 1fr;
