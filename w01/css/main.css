@@ -9,6 +9,11 @@ header, nav, main, footer{
     margin: 1.25rem auto;
     max-width: 900px;
 }
+body {
+    width: 1500px;
+    margin: 20px;
+    padding: 50px;
+}
 
 /* visited link */
 a:visited {
@@ -22,5 +27,5 @@ h2 {
 img {
     float: right;
     margin-top: -70px;
-    margin-right: 250px;
+    margin-right: 300px;
 }
