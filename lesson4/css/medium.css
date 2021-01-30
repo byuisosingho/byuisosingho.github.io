@@ -12,5 +12,15 @@
 	}
 	.navigation li:first-child {
 		display: none;
-	}
+    }
+    main{
+        margin: 0 auto;
+        max-width: 760px;
+    }
+    main div{
+        display: block;
+        margin: 10px auto;
+        border: 1px dashed black;
+        font-family: 'Roboto', sans-serif;
+    }
 }

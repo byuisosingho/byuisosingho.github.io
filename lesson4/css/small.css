@@ -3,7 +3,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	background-color: lightblue;
 }
 
 footer {
@@ -59,6 +60,15 @@ nav {
 .responsive li {
 	display: block;
 }
-
-
+main{
+	margin: 0 auto;
+	max-width: 500px;
+}
+main div{
+	display: block;
+	margin: 10px auto;
+	border: 1px dashed black;
+	font-family: 'Roboto', sans-serif;
+	background-color: lightcyan;
+}
 
