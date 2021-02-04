@@ -40,10 +40,33 @@ nav a:hover {
 a:visited{
     color: darkgreen;
 }
-h2{
+h2 h3 h4 h5{
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+	font-family: 'Roboto', sans-serif;
+}
+.color1{
+	background-color: pink;
+	text-align: center;
+	margin: 20px 400px;
+	
+}
+.paragraph1{
+	background-color: pink;
+}
+
+.color2{
+	background-color: lightblue;
+	text-align: center;
+	margin: 20px 400px;
+
+}
+
+.paragraph2{
+	background-color: lightblue;
+}
 
 main p{
     font-family: 'Roboto', sans-serif;
@@ -60,3 +83,4 @@ main p{
 @media only screen and (min-width: 60em){
 
 }
+
