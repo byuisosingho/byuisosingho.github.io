@@ -27,7 +27,7 @@ header p{
 }
 nav {
     margin: 0 auto;
-	max-width: 760px;
+	max-width: 100%;
     background-color:pink;
     font-family: 'Montserrat', sans-serif;
 }
