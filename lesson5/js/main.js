@@ -10,7 +10,7 @@ const options = {weekday: 'long', month: 'long',day: 'numeric', year: 'numeric'}
 document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
 
 
-fetch('http://api.openweathermap.org/data/2.5/forecast?q=preston&units=imperial&appid=3173e41ddba4b1687393846173784698')
+fetch('https://api.openweathermap.org/data/2.5/forecast?q=preston&units=imperial&appid=3173e41ddba4b1687393846173784698')
     .then((data) => data.json())
     .then((preston) => generateHtml(preston))
    
@@ -22,7 +22,7 @@ const generateHtml = (data) =>{
     var temp3 = Math.floor(data.list[21].main.temp)
     var temp4 = Math.floor(data.list[29].main.temp)
     var temp5 = Math.floor(data.list[37].main.temp)
-    var icon = `http://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`
+    var icon = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`
     const html = `
         <img src=${icon}></img>     
         <h3>Temp: ${temp}&#8457 </h3>
@@ -34,11 +34,11 @@ const generateHtml = (data) =>{
     const html2=`
         <h2>5 Day Forecast</h2>       
         <tr>
-            <th><img src="http://openweathermap.org/img/w/${data.list[5].weather[0].icon}.png"</img></th>
-            <th><img src="http://openweathermap.org/img/w/${data.list[13].weather[0].icon}.png"</img></th>
-            <th><img src="http://openweathermap.org/img/w/${data.list[21].weather[0].icon}.png"</img></th>
-            <th><img src="http://openweathermap.org/img/w/${data.list[29].weather[0].icon}.png"</img></th>
-            <th><img src="http://openweathermap.org/img/w/${data.list[37].weather[0].icon}.png"</img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[5].weather[0].icon}.png"</img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[13].weather[0].icon}.png"</img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[21].weather[0].icon}.png"</img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[29].weather[0].icon}.png"</img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[37].weather[0].icon}.png"</img></th>
         </tr>
         <tr>
             <th>${temp1}&#8457</th>
