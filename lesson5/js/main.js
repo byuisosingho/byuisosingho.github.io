@@ -51,3 +51,15 @@ const generateHtml = (data) =>{
     forecast.innerHTML = html2
 
 }   
+
+
+
+function displayonfriday(){
+    var date = new Date();
+    var day = date.getDay()
+    if (day == 5 ){
+        document.getElementById("pancake").style.display = "none";
+    }
+}
+
+displayonfriday();

@@ -1,4 +1,12 @@
 /* Small/Phone View ***************/
+#pancake{
+	margin: auto;
+	padding: 6px;
+	background-color: yellow;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -57,9 +65,9 @@ nav {
 	color: white;
 	background-color: black;
 }
-.navigation a:focus{
+.navigation .currentpage{
 	color: white;
-	background-color: black;
+	background-color: red;
 }
 
 .responsive li {
@@ -80,7 +88,7 @@ main div img{
 .current{
 	position: absolute;
 	display: inline;
-	padding: 10px 30px;
+	padding: 10px 50px;
 	top: 25px;
 	left: 50px;
 	background-color:pink;
@@ -88,7 +96,6 @@ main div img{
 	box-shadow: 0 0 30px #111;
 	opacity: 0.8;
 	font-weight: bold;
-	size: 70%;
 }
 
 table{
