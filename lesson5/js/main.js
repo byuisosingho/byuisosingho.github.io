@@ -34,11 +34,11 @@ const generateHtml = (data) =>{
     const html2=`
         <h2>5 Day Forecast</h2>       
         <tr>
-            <th><img src="https://openweathermap.org/img/w/${data.list[5].weather[0].icon}.png"</img></th>
-            <th><img src="https://openweathermap.org/img/w/${data.list[13].weather[0].icon}.png"</img></th>
-            <th><img src="https://openweathermap.org/img/w/${data.list[21].weather[0].icon}.png"</img></th>
-            <th><img src="https://openweathermap.org/img/w/${data.list[29].weather[0].icon}.png"</img></th>
-            <th><img src="https://openweathermap.org/img/w/${data.list[37].weather[0].icon}.png"</img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[5].weather[0].icon}.png" alt= "weather icon"></img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[13].weather[0].icon}.png" alt= "weather icon"></img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[21].weather[0].icon}.png" alt= "weather icon"></img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[29].weather[0].icon}.png" alt= "weather icon"></img></th>
+            <th><img src="https://openweathermap.org/img/w/${data.list[37].weather[0].icon}.png" alt= "weather icon"></img></th>
         </tr>
         <tr>
             <th>${temp1}&#8457</th>
