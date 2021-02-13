@@ -57,7 +57,7 @@ const generateHtml = (data) =>{
 function displayonfriday(){
     var date = new Date();
     var day = date.getDay()
-    if (day == 5 ){
+    if (day != 5 ){
         document.getElementById("pancake").style.display = "none";
     }
 }

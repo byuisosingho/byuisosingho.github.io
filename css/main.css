@@ -4,6 +4,7 @@ header, footer{
     text-align: center;
     border-radius: 1ch;
     padding: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 header, nav, main, footer{
     margin: 1.25rem auto;

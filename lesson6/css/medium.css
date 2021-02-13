@@ -1,0 +1,58 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    main{
+        margin: 0 auto;
+    }
+    main div{
+        display: block;
+        margin: 10px auto;
+	}
+
+	.forecast{
+		display: block;
+		justify-content: center;
+		align-items: center;
+		width: 60%;
+		
+	}
+	table, th, td {	
+		border: 1px solid black;
+		border-collapse: collapse;
+		width: 50%;
+	  }
+
+	  .articlebox{
+		margin: 10px auto;
+		position: relative;
+		display: flex;
+		background-color: lightblue;
+		padding: 1.5rem;
+	}
+	.articlebox p{
+		padding: 10px;
+	}
+	.articleimg{
+		max-width: 50%;
+		display: block;
+	}
+
+	
+	.map{
+		max-width: 50%;
+		display: block;
+	}
+
+}
