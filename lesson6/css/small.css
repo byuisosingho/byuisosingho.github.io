@@ -143,10 +143,10 @@ table{
 	padding: 5px;
 	font-size: 8px;
 	width: 15px;
-	text-align: center;
+	text-align: center; 
 	text-decoration: none;
 	margin: 5px 2px;
-  }
+  } 
 
 .fa-facebook {
 	background: #3B5998;
