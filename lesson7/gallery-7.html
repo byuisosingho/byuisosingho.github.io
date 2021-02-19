@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <meta name="desrciption" content="Get the forecast for today, tonight & tomorrow's weather ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+    <title>The Observatory</title>
+</head>
+<body>
+    <div id= "pancake" >Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</div>
+    <header>
+	    <picture>
+            <img src="images/telescope.png" alt="the observatory logo">
+        </picture>          
+        <section class ='headings'>
+                <h1>The Observatory</h1>
+                <p>The world best weather site</p>
+        </section>
+    </header>
+    <nav>
+        <ul class ='navigation'>
+            <li><a class= "ham" href="#" >&#9776; Home</a></li>
+            <li><a href="#" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#" class ="currentpage">Gallery</a></li>
+        </ul>
+    </nav>
+    <div class="gallery">
+        <figure >
+            <img class="image1" src="images/placeholder-image.jpg" data-src="images/cloudysunrise.jpg" alt="cloudy sunrise">
+            <!-- <figcaption>Cloudy Sunrise</figcaption> -->
+            <!-- <div class="myDIV">Hover over me.</div> -->
+            <figcaption class="hide hide1">Cloudy Sunrise</figcaption>
+        </figure>
+        <figure>
+            <img class="image2" src="images/placeholder-image.jpg" data-src="images/coldandfoggy.jpg" alt="cold and foggy">
+            <figcaption class="hide hide2">Cold And Foggy </figcaption>
+        </figure>
+        <figure>
+            <img class="image3" src="images/placeholder-image.jpg" data-src="images/morningsunlight.jpg" alt="morning sunlight">
+            <figcaption class="hide hide3">Morning Sunlight</figcaption>
+            
+        </figure>
+        <figure>
+            <img class="image4" src="images/placeholder-image.jpg" data-src="images/mostlycloudy.jpg" alt="mostly cloudy">
+            <figcaption class="hide hide4">Mostly Cloudy</figcaption>
+            
+        </figure>
+        <figure>
+            <img class="image5" src="images/placeholder-image.jpg" data-src="images/partlycloudy.jpg" alt="partly cloudy">
+            <figcaption class="hide hide5">Partly Cloudy</figcaption>
+            
+        </figure>
+        <figure>
+            <img class="image6" src="images/placeholder-image.jpg" data-src="images/purplelightingstrom.jpg" alt="purple lighting strom">
+            <figcaption class="hide hide6">Purple Lighting Strom</figcaption>
+            
+        </figure>
+        <figure>
+            <img class="image7" src="images/placeholder-image.jpg" data-src="images/rainbow.jpg" alt="rainbow">
+            <figcaption class="hide hide7">Rainbow</figcaption>
+            
+        </figure>
+        <figure>
+            <img class="image8" src="images/placeholder-image.jpg" data-src="images/sunsetandlighting.jpg" alt="sunset and lighting">
+            <figcaption class="hide hide8">Sunset and Lighting</figcaption>
+            
+        </figure>
+        <figure>
+            <img class="image9" src="images/placeholder-image.jpg" data-src="images/warmsunnyday.jpg" alt="warm sunnyday">
+            <figcaption class="hide hide9" >Warm Sunnyday</figcaption>
+            
+        </figure>
+    </div>
+    <footer>
+        &copy; The Observatory | Attribution | Sing Ho So |  
+        <span id="currentdate"></span>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/lazyload.js" ></script> 
+</body>
+</html>

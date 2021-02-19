@@ -1,0 +1,27 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 740px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+	.gallery {
+		margin: 1rem auto;
+		display:grid;
+		grid-template-columns:1fr 1fr; 
+		max-width: 700px;}
+
+	img figcaption{
+		padding: 0 0 1em 0;
+		}
+		
+
+}

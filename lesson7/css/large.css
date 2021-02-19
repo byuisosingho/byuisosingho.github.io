@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1240px){
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.gallery {
+		margin: 0 auto;
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr; 
+		max-width: 1200px;}
+	.hide {
+		display: none;
+	}
+	img div{
+		padding: 0 0 1em 0;
+	}
+	
+			  
+	.image1:hover + .hide1 {
+		display: block;
+		color: red;
+		padding: 0 0 1em 0;
+	}
+	.image2:hover + .hide2 {
+		display: block;
+		color: red;
+		padding: 0 0 1em 0;
+	}
+	.image3:hover + .hide3 {
+		display: block;
+		color: red;
+		padding: 0 0 1em 0;
+	}
+	.image4:hover + .hide4 {
+		display: block;
+		color: red;
+		padding: 0 0 1em 0;
+	}
+	.image5:hover + .hide5 {
+		display: block;
+		color: red;
+		padding: 0 0 1em 0;
+	}
+	.image6:hover + .hide6 {
+		display: block;
+		color: red;
+		padding: 0 0 1em 0;}
+	.image7:hover + .hide7 {
+			display: block;
+			color: red;
+			padding: 0 0 1em 0;
+	}
+	.image8:hover + .hide8 {
+		display: block;
+		color: red;
+		padding: 0 0 1em 0;
+	}
+	.image9:hover + .hide9 {
+		display: block;
+		color: red;
+		padding: 0 0 1em 0;
+	}
+	img:hover {box-shadow: 0 0 50px #333;}
+
+}
