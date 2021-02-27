@@ -74,15 +74,17 @@ nav {
 	display: block;
 }
 
-.gallery {
-	margin: 0 auto;
-	display:grid;
-	grid-template-columns: 1fr; 
-	max-width: 320px;}
-
-
-
-img figcaption{
-	padding: 0 0 1em 0;
+.report-form{
+	max-width: 500px;
+	margin: 2rem auto;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: honeydew;
+	
 }
+label{
+	display:block;}
 
+input{
+	margin: 0 0 10px 0;
+}
