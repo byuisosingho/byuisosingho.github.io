@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="images/favicon.ico">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <meta name="desrciption" content="Get the forecast for today, tonight & tomorrow's weather ">
@@ -38,7 +38,6 @@
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
-<body>
     <form action="thanks.html" class="report-form">
         <h2>Personal Infornation</h2>
         <div>
@@ -46,17 +45,17 @@
             <input type="text" pattern="[A-Za-z]{5,}" id="name" name="fullname">
         </div>
         <div>
-            <label for="">Email</label>
-            <input type="text" placeholder="xxxx@email.com" name="email">
+            <label for="email">Email</label>
+            <input type="text" placeholder="xxxx@email.com" id="email" name="email">
         </div>
         <div>
-            <label for="">Phone number</label>
-            <input type="tel" name="phoneNumber">
+            <label for="phoneNumber">Phone number</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber">
         </div>
         <h2>Weather Information</h2>
         <div>
-            <label for="">Storm date</label>
-            <input type="date" name="date">
+            <label for="date">Storm date</label>
+            <input type="date" id="date" name="date">
         </div>
         <div>
             <label>Storm type</label>
@@ -99,18 +98,19 @@
                 </select>
             </label>
         </div>
-            <legend>User in-danger level <em>(Choose one)</em></legend>
-            <div class="selection">
-                 
-                <label for="yes"><input type="radio" id="yes" name="level"  checked> Yes</label>
-            </div>
-            <div class="selection">
-                <label><input type="radio" name="level" > Maybe</label>
-            </div>
-            <div class="selection">
-                
-                <label for="no"><input type="radio" id="no" name="level" > No</label>
-        </div>
+            <fieldset>
+                <legend>User in-danger level <em>(Choose one)</em></legend>
+                    <div class="selection">
+                        
+                        <label for="yes"><input type="radio" id="yes" name="level"  checked> Yes</label>
+                    </div>
+                    <div class="selection">
+                        <label><input type="radio" name="level" > Maybe</label>
+                    </div>
+                    <div class="selection">
+                        
+                        <label for="no"><input type="radio" id="no" name="level" > No</label></div>
+            </fieldset>
         <div>
             <label for="comment">Additional Information or Comments    
             </label>
