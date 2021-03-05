@@ -1,0 +1,29 @@
+h1, footer{
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 5px;
+}
+
+p{
+    font-size: 11px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+section{
+    background-color: lightblue;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+img{
+    width:100px;
+}
