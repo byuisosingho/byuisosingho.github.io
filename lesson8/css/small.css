@@ -66,8 +66,8 @@ nav {
 	background-color: black;
 }
 .navigation .currentpage{
-	color: green;
-	background-color: orange;
+	color: black;
+	background-color: lightblue;
 }
 
 .responsive li {
@@ -87,4 +87,7 @@ label input{
 
 input{
 	margin: 0 0 10px 0;
+}
+.selection input{
+	display: inline;
 }
