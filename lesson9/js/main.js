@@ -11,7 +11,6 @@ document.getElementById('currentdate').textContent = new Date().toLocaleDateStri
 
 
 
-
 function displayonfriday(){
     var date = new Date();
     var day = date.getDay()
@@ -22,6 +21,3 @@ function displayonfriday(){
 
 displayonfriday();
 
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}
